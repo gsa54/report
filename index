@@ -1,0 +1,507 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="color-scheme" content="light dark">
+	<meta name="supported-color-schemes" content="light dark">
+	<style type="text/css">
+		@media only screen and (max-width: 600px) {
+			.responsive-column {
+				display: block !important;
+				width: 100% !important;
+				text-align: center !important;
+				padding-bottom: 12px !important;
+				padding-left: 15px !important;
+				padding-right: 15px !important;
+				box-sizing: border-box !important;
+			}
+
+			/* Center any nested tables inside stacked footer columns (flags, email/phone rows) */
+			.responsive-column table {
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+
+			.center-text {
+				text-align: center !important;
+			}
+
+			.footer-column {
+				display: block !important;
+				width: 100% !important;
+			}
+
+			.footer-desktop span,
+			.footer-desktop a {
+				display: inline-block !important;
+				margin-bottom: 8px !important;
+			}
+
+			.icon-spacer {
+				display: block !important;
+				padding-bottom: 8px !important;
+			}
+
+			.responsive-table {
+				padding: 32px 15px 50px 15px !important;
+			}
+
+			/* .responsive-tdm {
+			padding: 0px 15px !important;
+		} */
+
+			.desktop-only {
+				display: none !important;
+			}
+
+			.mobile-only {
+				display: block !important;
+			}
+
+			.social-icons-wrapper {
+				text-align: center !important;
+				display: block !important;
+				width: 100% !important;
+				margin-bottom: 15px;
+			}
+
+			.social-icons-wrapper table {
+				margin: 0 auto !important;
+			}
+
+			.social-icons-tabled {
+				margin: 0 auto !important;
+			}
+
+			.responsive-tdm-sec {
+				padding: 24px 15px 32px 15px !important;
+			}
+
+			.tkxel-mob {
+				margin-top: 15px !important;
+			}
+
+			.mobible-pad {
+				margin-top: 20px !important;
+			}
+
+			.mobible-pad-one {
+				margin-top: -10px !important;
+			}
+
+			.mob-pding {
+				padding: 9px 0px 32px 0px !important;
+			}
+
+			.mob-mg {
+				margin-bottom: 24px !important;
+			}
+			.buttontalkto{
+				width: 160px !important;
+				height: auto !important;
+			}
+
+			.padding-only-desktop {
+				padding: 20px !important;
+			}
+			.mobible-pad-one{
+				display: none !important;
+			}
+
+			/* Center logo and flag sections on mobile */
+			.responsive-column img {
+				margin: 0 auto !important;
+				display: block !important;
+			}
+
+			/* Center flag and text combinations */
+			.responsive-column table[role="presentation"] {
+				margin: 0 auto !important;
+			}
+
+			/* Adjust footer padding to match upper portion */
+			.responsive-tdm-sec {
+				padding: 24px 15px 32px 15px !important;
+			}
+
+			/* Ensure footer content stays within boundaries */
+			.responsive-tdm {
+				padding: 24px 15px 16px 15px !important;
+			}
+
+			/* border left */
+			.footer-border {
+				border-left: none !important;
+			}
+
+
+		}
+
+		.ii a[href] {
+			color: #0d53e7 !important;
+		}
+
+		div[align="center"][style*="font-size:10px"] {
+			padding: 0px 10px;
+		}
+
+		/* Ensure divider line is visible on desktop */
+		.desktop-only {
+			display: table-cell !important;
+		}
+
+		@media only screen and (max-width: 600px) {
+			.desktop-version {
+				display: none !important;
+				max-height: 0 !important;
+				overflow: hidden !important;
+			}
+
+			.mobile-version {
+				display: block !important;
+				max-height: none !important;
+			}
+
+			.desktop-only {
+				display: none !important;
+			}
+            .headline-text{
+                font-size: 16px !important;
+            }
+
+		}
+
+		@media only screen and (min-width: 601px) {
+			.desktop-version {
+				display: block !important;
+				max-height: none !important;
+			}
+
+			.mobile-version {
+				display: none !important;
+				max-height: 0 !important;
+				overflow: hidden !important;
+			}
+			.mobile-only {
+				display: none !important;
+			}
+
+			.padding-only-desktop {
+				padding: 40px !important;
+			}
+			.responsive-tdm {
+				padding: 24px 15px 16px 15px !important;
+			}
+            .headline-text{
+                font-size: 24px !important;
+            }
+
+			/* bborder left */
+			.footer-border {
+				border-left: 1px solid #f5f5f5 !important;
+			}
+
+			/* Ensure desktop-only elements show on desktop */
+			.desktop-only {
+				display: table-cell !important;
+			}
+
+			/* Desktop-only widths for office addresses */
+			.responsive-column div[style*="width: 165px"] {
+				width: 165px !important;
+			}
+
+			.responsive-column div[style*="width: 152px"] {
+				width: 152px !important;
+			}
+
+			
+
+
+		}
+	</style>
+
+</head>
+
+<body>
+	<table class="responsive-table"
+		style="max-width: 700px; width: 100%; margin: auto; border-spacing: 0px;background: #F5F5F5;padding: 50px 40px 50px 40px;">
+		<tr>
+
+			<!-- ===== tkxel Ranked Among Asia's Top – BEGIN ===== -->
+		<tr style="background: #FFFFFF;">
+			<td class="padding-only-desktop">
+
+				<img class="responsive-img" src="https://img.mailinblue.com/4674333/images/content_library/original/694b84126c09da4842d545f0.jpg" alt="thirdbg"
+					style="width: 100%; display: block;">
+
+				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td class="responsive-tdm tdm-mobile "
+							style="text-align: center; font-family: Poppins, Arial, sans-serif;">
+
+							<div
+								style=" font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 16px; color: #000000;line-height: 1.5;padding: 0px 10px;">
+								Thanks for downloading our MLOps Readiness Checklist template! Access it immediately through the button below
+                                 <br class="mobible-pad-one">
+								
+							</div>
+					<tr>
+					<tr>
+						<td align="center">
+							<a href="https://tkxel.com/jtly?utm_source=brevo&utm_campaign=Report - Cloud Cost Optimization Report&utm_medium=email" target="_blank">
+								<img class="buttontalkto" src="https://img.mailinblue.com/4674333/images/content_library/original/694b8f9d76de2d833495799e.png" alt="readfullguide"
+									style="width: 166px;  height: 38px; align-items: center;">
+							</a>
+						</td>
+					</tr>
+
+		</tr>
+	</table>
+
+	</td>
+	</tr>
+
+	<!-- ===== tkxel Ranked Among Asia's Top – END ===== -->
+
+
+	<!-- Spacer Between Sections -->
+	<tr>
+		<td height="10" style="font-size:24px; line-height:10px;">&nbsp;</td>
+	</tr>
+
+	<!-- ===== tkxel Ranked Among Asia's Top – BEGIN ===== -->
+
+	<tr style="background-color: #FFFFFF;">
+		<td class="padding-only-desktop">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr style="background:url(https://img.mailinblue.com/4674333/images/content_library/original/694b8d9282398927220f4abb.png) center center / cover no-repeat  !important;">
+					<td class="responsive-tdm tdm-mobile padding-only-desktop"
+						style="text-align: center; font-family: Poppins, Arial, sans-serif;">
+
+
+						
+                            <div class="headline-text" style="font-family: Poppins, Arial, sans-serif; font-weight: 500; font-size: 24px; color: #fff;line-height: 1.2;">
+                            <br>
+<br class="mobile-only">
+<br>
+                        </div>
+						<!-- border -->
+						<div style="width:0; height:0; overflow:hidden; display:inline-block;">
+							<img src="https://img.mailinblue.com/4674333/images/content_library/original/694b8d9282398927220f4abb.png" alt="" style="width:0; height:0; display:block; border:0;">
+						</div>
+						
+						
+                        
+						<a href="https://staging.tkxel.com/services/cloud-cost-optimization/?utm_source=brevo&utm_campaign=Report - Cloud Cost Optimization Report&utm_medium=email#cta-form"
+							target="_blank">
+							<img class="" src="https://img.mailinblue.com/4674333/images/content_library/original/694b8fa96c09da4842d54695.png" alt="talkto" style="padding-top: 20px !important; width:202px; height:34px;"  >
+						</a>
+				</tr>
+			</table>
+
+		</td>
+	</tr>
+
+
+	<!-- Spacer Between Sections -->
+	<tr>
+		<td height="15" style="font-size:24px; line-height:15px;">&nbsp;</td>
+	</tr>
+
+	<!-- ===== Footer: Connect with tkxel – BEGIN ===== -->
+
+	<tr style="background: #FFFFFF;">
+		<td>
+			<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+				style="max-width: 600px; margin: 0 auto;">
+				<tr style="background: #FFFFFF;">
+					<td class="responsive-tdm-sec" style="padding: 0;">
+						<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+							style="max-width: 600px; margin: 0 auto;">
+							<tr>
+								<td>
+									<table width="100%" cellpadding="0" cellspacing="0" border="0"
+										style="max-width: 600px; margin: 0 auto;">
+										<tr>
+											<td class="responsive-tdm" style="padding: 24px 40px 16px 40px;">
+												<table width="100%" cellpadding="0" cellspacing="0" border="0"
+													style="max-width: 600px; margin: 0 auto;">
+													<tr>
+														<!-- Left Column: Text -->
+														<td class="responsive-column center-text" align="left"
+															style=" font-family: Poppins, Arial, sans-serif; color: #000000;">
+
+															<img src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6c320f5a609598665b3.png" class="tkxel-mob" alt="tkxel"
+																width="97px" style="display:block; ">
+														</td>
+														<!-- Right Column: Social Icons -->
+														<td class="social-icons-wrapper" align="right" valign="middle"
+															style="white-space: nowrap;">
+															<table class="social-icons-tabled" cellpadding="0"
+																cellspacing="0" border="0"
+																style="border-collapse: collapse;">
+																<tr>
+																	<td><a href="https://www.linkedin.com/company/tkxel?utm_source=brevo&utm_campaign=Report - Cloud Cost Optimization Report&utm_medium=email"
+																			target="_blank"><img
+																				src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6c80fb89ddfe7df0039.png"
+																				alt="LinkedIn" width="16"
+																				style="display:block; border:0;"></a>
+																	</td>
+																	<td style="width:12px;"></td>
+																	<td><a href="https://www.instagram.com/tkxelofficial?utm_source=brevo&utm_campaign=Report - Cloud Cost Optimization Report&utm_medium=email"
+																			target="_blank"><img
+																				src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6cf187079fa915516d5.png"
+																				alt="Instagram" width="16"
+																				style="display:block; border:0;"></a>
+																	</td>
+																	<td style="width:12px;"></td>
+																	<td><a href="https://www.instagram.com/tkxelofficial?utm_source=brevo&utm_campaign=Report - Cloud Cost Optimization Report&utm_medium=email"
+																			target="_blank"><img src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6d9712c6a65c16b5737.png"
+																				alt="Instagram" width="16"
+																				style="display:block; border:0;"></a>
+																	</td>
+																	<td style="width:12px;"></td>
+																	<td><a href="https://www.youtube.com/channel/UC_xV_ut95d7zkJkEIWweCmQ?utm_source=brevo&utm_campaign=Report - Cloud Cost Optimization Report&utm_medium=email"
+																			target="_blank"><img
+																				src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6de20f5a609598665c0.png" alt="YouTube"
+																				width="16"
+																				style="display:block; border:0;"></a>
+																	</td>
+																	<td style="width:12px;"></td>
+																	<td><a href="https://www.facebook.com/tkxelofficial?utm_source=brevo&utm_campaign=Report - Cloud Cost Optimization Report&utm_medium=email"
+																			target="_blank"><img
+																				src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6e43c7979f9f769f5fe.png" alt="Facebook"
+																				width="16"
+																				style="display:block; border:0;"></a>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="responsive-spacer" colspan="2"
+												style="border-top: 1px solid #f5f5f5; height:1px; font-size:0; line-height:0;">
+												&nbsp;</td>
+										</tr>
+										<tr>
+
+
+
+										</tr>
+
+										<!-- Contact Section -->
+										<table role="presentation" border="0" cellpadding="0" cellspacing="0"
+											width="100%" style="max-width: 600px; margin: 0 auto;">
+											<tr>
+												<!-- Contact Us -->
+												<td class="responsive-column center-text" valign="top"
+													style="padding:10px 28px 13px 40px ; font-family: Poppins, Arial, sans-serif; color: #000000;">
+													<span
+														style="font-size: 10px; color:#8A8383; font-weight: 600; line-height: 1.5em;">
+														Contact us
+													</span>
+													<br>
+
+													<!-- Email -->
+													<table role="presentation" border="0" cellpadding="0"
+														cellspacing="0" style="margin-top:6px;">
+														<tr>
+															<td valign="middle" style="padding-right:2px;">
+																<img src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6e9712c6a65c16b573f.png" alt="" width="12"
+																	height="12" style="display:block; border:0;">
+															</td>
+															<td valign="middle"
+																style="font-size:10px; font-weight:400; color:#000000; font-family:Poppins, Arial, sans-serif;">
+																services@tkxel.com
+															</td>
+														</tr>
+													</table>
+
+													<!-- Phone -->
+													<table role="presentation" border="0" cellpadding="0"
+														cellspacing="0" style="margin-top:3px;">
+														<tr>
+															<td valign="middle" style="padding-right:2px;">
+																<img src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6ed3c7979f9f769f605.png" alt="" width="12"
+																	height="12" style="display:block; border:0;">
+															</td>
+															<td valign="middle"
+																style="font-size:10px; font-weight:400; color:#000000; font-family:Poppins, Arial, sans-serif;">
+																+1 202 978-3410
+															</td>
+														</tr>
+													</table>
+												</td>
+
+
+												<!-- USA Office -->
+												<td class="responsive-column center-text footer-border" valign="top"
+													style="padding: 13px 20px 13px 20px; font-family: Poppins, Arial, sans-serif; color: #000000; border-left: 1px solid #f5f5f5;">
+													<table role="presentation" border="0" cellpadding="0"
+														cellspacing="0">
+														<tr>
+															<td valign="middle" style="padding-right:8px;">
+																<img src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6f2187079fa915516ed.png" alt="" width="16"
+																	height="16" style="display:block; border:0;">
+															</td>
+															<td valign="middle"
+																style="font-size:10px; font-weight:600; color:#8A8383; font-family:Poppins, Arial, sans-serif;">
+																USA Office
+															</td>
+														</tr>
+													</table>
+													<div
+														style="font-size:10px; font-weight:400; color:#000000; font-family:Poppins, Arial, sans-serif; line-height:1.5; margin-top:4px;">
+														11921 Freedom Drive Two<br>
+														Fountain Square Reston Town <br>
+														Center Suite 550, 20190, Reston
+													</div>
+												</td>
+
+												<!-- Portugal Office -->
+												<td class="responsive-column center-text  " valign="top"
+													style="padding: 13px 20px 13px 0px; font-family: Poppins, Arial, sans-serif; color: #000000;">
+													<table role="presentation" border="0" cellpadding="0"
+														cellspacing="0">
+														<tr>
+															<td valign="middle" style="padding-right:8px;">
+																<img src="https://img.mailinblue.com/4674333/images/content_library/original/68adb6f60fb89ddfe7df004e.png" alt="" width="16"
+																	height="16" style="display:block; border:0;">
+															</td>
+															<td valign="middle"
+																style="font-size:10px; font-weight:600; color:#8A8383; font-family:Poppins, Arial, sans-serif;">
+																Portugal Office
+															</td>
+														</tr>
+													</table>
+													<div
+														style="font-size:10px; font-weight:400; color:#000000; font-family:Poppins, Arial, sans-serif; line-height:1.5; margin-top:4px;">
+														Avenida Dom João II, N.° 50, <br>
+														Edificio Rua do Mar Vermelho,<br>
+														1990-095, Lisbon, Portugal
+													</div>
+												</td>
+											</tr>
+										</table>
+
+
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<!-- ===== Footer: Connect with tkxel – END ===== -->
+</body>
+
+</html>
